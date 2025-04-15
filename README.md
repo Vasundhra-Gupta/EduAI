@@ -1,6 +1,6 @@
 # 📚 EduAI – Smart Doubt Resolution System
 
-EduAI is an AI-powered web platform enabling real-time student doubt resolution and personalized test generation for teachers.
+EduAI is an AI-powered web platform enabling real-time student doubt resolution and personalized test generation for teachers
 
 ---
 
