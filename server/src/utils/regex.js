@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { MAX_FILE_SIZE, ALLOWED_EXT } from '../Constants/index.js';
+import { MAX_FILE_SIZE, ALLOWED_EXT } from '../constants/index.js';
 import {
     parsePhoneNumberFromString,
     isValidPhoneNumber,

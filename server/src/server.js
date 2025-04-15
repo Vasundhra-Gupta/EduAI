@@ -1,4 +1,4 @@
-import './config/envLoader.js';
+import './config/env.loader.js';
 import { connectDB } from './db/connectMongodb.js';
 import { http } from './socket.js';
 import { connectRedis } from './db/connectRedis.js';
