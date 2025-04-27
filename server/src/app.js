@@ -12,10 +12,11 @@ app.use(cors(CORS_OPTIONS));
 
 // Routes
 
-import { userRouter } from './routers/index.js';
+import { userRouter, doubtRouter } from './routers/index.js';
 import { errorMiddleware } from './middlewares/index.js';
 
 app.use('/api/users', userRouter);
+app.use('/api/doubts', doubtRouter);
 
 app.get('/', (req, res) => {
     res.status(OK).json({ message: 'Welcome to EduAI!' });
